@@ -1,0 +1,14 @@
+1. Extraia este ZIP.
+2. Abra esta pasta no VS Code.
+3. Abra o terminal do VS Code.
+4. Cole este bloco, trocando SEU_USUARIO se precisar:
+
+Remove-Item -Recurse -Force .git -ErrorAction SilentlyContinue
+git init
+git add .
+git commit -m "versao web limpa para vercel"
+git branch -M main
+git remote add origin https://github.com/lira05vendas-cmd/finance-pro.git
+git push -u origin main --force
+
+5. Na Vercel, importe/redeploy o repositorio finance-pro.

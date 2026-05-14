@@ -1,0 +1,8 @@
+PASSO A PASSO
+
+1. Clique em 1-INSTALAR.bat e espere terminar.
+2. Clique em 2-GERAR-APP.bat e espere terminar.
+3. Abra a pasta release/win-unpacked.
+4. Clique em Finance Pro.exe.
+
+Se o Windows bloquear alguma coisa, clique com o botao direito no .bat e escolha Executar como administrador.
